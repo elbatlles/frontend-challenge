@@ -1,0 +1,7 @@
+@import "tailwindcss";
+h1 {
+  @apply text-4xl font-bold;
+}
+html {
+  @apply bg-gray-100;
+}
