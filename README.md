@@ -21,7 +21,15 @@ Make sure you have Node.js installed. Then run:
 npm install
 ```
 
-### 2. Start the development server
+### 2. Set up environment variables
+
+Copy the example environment file and update the values:
+
+```bash
+cp .env.example .env
+```
+
+### 3. Start the development server
 
 ```bash
 npm run dev
@@ -66,3 +74,7 @@ src/
 - Sorting by Title, Version or CreatedAt
 - Adding new documents via form
 - Notification counter for documents received via WebSocket
+
+## 🏁 Optional Enhancements Considered
+
+- Tailwind CSS-based styling with class extraction

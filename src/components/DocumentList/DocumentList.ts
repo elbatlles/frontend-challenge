@@ -143,7 +143,7 @@ export class DocumentList extends HTMLElement {
             )
             .join("")}
         </div>
-        <div class="text-center bg-white shadow rounded text-blue-600 font-medium cursor-pointer hover:underline p-4  " id="add-document-row">
+        <div class="bg-gray-100 text-center  shadow rounded text-blue-600 font-medium cursor-pointer hover:underline p-4  " id="add-document-row">
           <div>+ Add Document</div>
         </div>
       `;
@@ -167,7 +167,7 @@ export class DocumentList extends HTMLElement {
             )
             .join("")}
           <div class="bg-gray-100 shadow rounded content-center align-middle  not-even: text-blue-600 text-center font-medium cursor-pointer hover:underline h-12" id="add-document-row">
-            + Add Document
+            + Add Document 
           </div>
         </div>
       `;
